@@ -1,0 +1,9 @@
+version: '3'
+services:
+  api:
+    build: .
+    ports:
+      - "8801:8801"
+    environment:
+      - AUTH_TOKEN=sk-tafiny2025
+    restart: always 
